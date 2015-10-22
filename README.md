@@ -1,7 +1,6 @@
 # modsecurity-trustwave-rule-downloader
-Script to Download ModSecurity Rules
+Script for downloading the Trustwave Commercial ModSecurity Ruleset to a cPanel server
 
-This script is for downloading the Trustwave Commercial ModSecurity Ruleset to a cPanel server.
 
 Download the script to a secure folder on your cPanel server.
 ``` text
