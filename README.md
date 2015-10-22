@@ -30,5 +30,9 @@ Include conf/slr_vuln_rules/botnet_attacks/*.conf
 # Disabled credit card tracking as was creating false positives for clients.
 Include conf/slr_vuln_rules/dos_attacks/*.conf
 Include conf/slr_vuln_rules/webshell_backdoors/*.conf
+```
 
+add a cronjob to run nightly (for example):
+``` text
+0 6 * * * /username/myscripts/trustwave_rule_download > /dev/null 2>&1
 ```
