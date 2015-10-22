@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 # This script downloads latest Commercial ModSecurity Rules from Trustwave and restarts Apache web server.
 # Written by Wesley Render, OtherData <https://www.otherdata.com>
 
