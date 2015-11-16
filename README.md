@@ -33,5 +33,5 @@ Include conf/slr_vuln_rules/webshell_backdoors/*.conf
 
 add a cronjob to run nightly (for example):
 ``` text
-0 6 * * * /username/myscripts/trustwave_rule_download > /dev/null 2>&1
+0 6 * * * perl /path-to-script/trustwave_rule_download.pl > /dev/null 2>&1
 ```
